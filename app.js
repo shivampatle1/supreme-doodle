@@ -10,3 +10,8 @@ function getFullName() {
 }
 
 console.log(`User's full name is: ${getFullName()}`);
+
+
+console.log(`Goodbye, ${firstName} ${lastName}!`);
+
+export { firstName, lastName, getFullName };
